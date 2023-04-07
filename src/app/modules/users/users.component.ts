@@ -22,9 +22,8 @@ export class UsersComponent {
   }
 
   getDefaultImage(element: any) {
-    console.log(element);
     element.target.onerror = null;
-    element.target.src = 'https://picsum.photos/id/684/100/100';
+    element.target.src = 'https://i.pravatar.cc/100?img=1';
   }
 
   get randomDate() {

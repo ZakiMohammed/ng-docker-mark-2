@@ -5,7 +5,7 @@
         <div class="tile u-items-center mb-3" *ngFor="let user of users$ | async">
           <div class="tile__icon">
             <figure class="avatar bg-gray-200">
-              <img [src]="getImage(user)" alt="img-stretch" (error)="getDefaultImage($event)" />
+              <img [src]="getImage(user)" alt="img-stretch" (error)="getDefaultImage($event)" height="100" width="100" />
             </figure>
           </div>
           <div class="tile__container">
