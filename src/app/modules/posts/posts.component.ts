@@ -22,7 +22,6 @@ export class PostsComponent {
   }
 
   getDefaultImage(element: any) {
-    console.log(element);
     element.target.onerror = null;
     element.target.src = 'https://picsum.photos/id/684/800/400';
   }

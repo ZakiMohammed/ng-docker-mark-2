@@ -20,3 +20,30 @@ docker stop ng-docker-mark-2-container-1
 # remove container
 docker rm ng-docker-mark-2-container-1
 ```
+
+```
+ng-docker-mark-2
+|-- nginx
+|   |-- nginx.conf
+|-- src
+|   |-- app
+|   |   |-- core
+|   |   |   |-- components
+|   |   |   |   |-- footer
+|   |   |   |   |-- header
+|   |   |   |-- pages
+|   |   |   |   |-- home
+|   |   |   |-- services
+|   |   |       |-- core.service.ts
+|   |   |       |-- products.service.ts
+|   |   |-- modules
+|   |   |   |-- posts
+|   |   |   |-- users
+|   |   |-- app-routing.module.ts
+|   |   |-- app.component.html
+|   |   |-- app.component.ts
+|   |   |-- app.module.ts
+|-- angular.json
+|-- Dockerfile
+|-- package.json
+```
